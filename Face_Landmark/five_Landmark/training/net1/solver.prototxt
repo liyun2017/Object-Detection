@@ -1,0 +1,27 @@
+net: "/media/ly/data/FacialLandmark_Caffe-master/training/net1/train.prototxt"
+average_loss: 100
+base_lr: 0.00001
+momentum: 0.9
+weight_decay: 0.0005
+# The learning rate policy
+lr_policy: "step"
+gamma: 0.1   
+stepsize: 10000
+
+test_initialization: false
+test_interval: 50000000
+test_iter: 500
+
+display: 100
+iter_size: 1
+max_iter: 50000
+
+snapshot: 5000
+snapshot_prefix: "/media/ly/data/FacialLandmark_Caffe-master/training/net1/model/"
+solver_mode: GPU
+
+type: "Adam"
+momentum2:0.9999
+delta: 1e-8
+
+

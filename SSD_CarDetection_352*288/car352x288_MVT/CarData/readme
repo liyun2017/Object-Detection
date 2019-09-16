@@ -1,0 +1,30 @@
+test 是为了尝试将图片重名字 读取对应的xml 修改xml格式   将上述文件放入其他文件
+
+train val是解压过后的文件 手动分离的两个文件夹  且已经去掉了图片与xml不对应的文件夹
+
+problem 是图片与xml不对应的文件夹
+	MVI_39761
+	MVI_39781
+	MVI_39811
+	MVI_39851
+	MVI_39931
+	MVI_40152
+	MVI_40162
+	MVI_40211
+	MVI_40213
+	MVI_40991
+	MVI_40992
+	MVI_63544
+
+AnnotationsXml 是解压过后的xml格式  与voc格式不太一样 故需要进行修改
+
+Annotations ImageSets JPEGImages 是转化imdb格式的三个文件夹
+	Annotations	对应的xml格式
+	ImageSets	图片 xml对应的名字 不带后缀
+	JPEGImages	所有图片
+
+read_annotation.py 是用来检查xml 与图片名字是否一样的程序   会将图片对应的xml格式提取bbox在图片上显示出来
+
+test_test.py 是用来学习如何读取所有文件   目录 子文件夹 所有文件
+
+test.py 将train val 里面的数据转成imdb的三个文件夹存放
