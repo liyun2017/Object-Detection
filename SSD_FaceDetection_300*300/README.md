@@ -5,6 +5,6 @@
 目录结构如下：
 	jobs	存放着prototxt 和 训练文件
 	VGGNet	存放着测试文件 模型太大没有上传
-	widerface存放着转化后的imdb格式
+	widerface300 存放着转化imdb格式的过程
 	wider_face存放着wider_face数据集
 	

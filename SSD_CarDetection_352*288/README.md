@@ -3,7 +3,9 @@
 目录：
 	car352x288_MVT	在数据集Insight-MVT上进行训练
 	
-	car352x288_KITTI在数据集KITTI上进行训练
+	car352x288_ori_KITTI 在数据集KITTI上进行训练 但是是原图直接压缩 损失大
+        
+        car352x288_split_KITTI  在数据集KITTI上进行训练 但是是将原图进行了剪切
 
 TODO：
 	MVT数据集是视频数据集，其单帧图片具有非常大的运动模糊，且场景单一，数据不care，导致训练结果出现了误检率
